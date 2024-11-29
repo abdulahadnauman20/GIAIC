@@ -1,0 +1,139 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 20px;
+   background-color: black;
+   transform: scale(0.9);
+   transform-origin: top center;
+   overflow-y: scroll;
+}
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100px;
+}
+
+h1 {
+   text-align: center;
+   color: darkorange;
+}
+
+.header {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+}
+
+.header img {
+   width: 150px;
+   height: auto;
+   border-radius: 50%;
+}
+
+form {
+   max-width: 90%;
+   padding: 20px;
+   margin: auto;
+   background-color: lightgrey;
+   border-radius: 8px;
+   box-shadow: 4px 4px 8px rgba(244, 0, 0, 0.8);
+}
+
+section {
+   margin: 20px;
+   padding: 10px;
+   border: 2px solid red;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0);
+   margin-bottom: 20px;
+   background-color: lightblue;
+}
+
+legend {
+   font-weight: bold;
+   font-size: 20px;
+   text-align: left;
+   color: rgb(1, 1, 1);
+}
+
+label {
+   display: block;
+   margin-top: 10px;
+   color: red;
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid red;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 4px;
+   background-color: rgba(255, 255, 255, 0.548);
+}
+
+body::-webkit-scrollbar {
+   width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+   background: lightgrey;
+   border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+   background: darkorange;
+   border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+   background: darkred; /* Thumb color on hover */
+}
+
+.duration {
+   font-size: 0.9em;
+   color: #666;
+   margin-top: 4px;
+   margin-bottom: 2px;
+}
+
+h3 {
+   font-size: 1.2em;
+   color: #000000;
+   font-weight: 200px;
+   margin-top: 8px;
+}
+
+button {
+   margin-top: 10px;
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #45a049;
+}
+#skillsSection, #experienceSection, #projectsSection, #educationSection, #personalInfoSection {
+   display: block; 
+}
+/* Ensure sections are initially hidden */
+#skillsSection, #experienceSection, #projectsSection, #educationSection, #personalInfoSection {
+   display: none; /* Hide sections by default */
+}
+
+button {
+   margin: 10px;
+   padding: 8px 16px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+h3, a {
+   font-size: 18px;
+   margin-bottom: 10px;
+}

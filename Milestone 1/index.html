@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Static Resume Builder by Abdul Ahad Nauman</h1>
+        <img src="img.jpg" alt="Profile Image">
+    </div>
+    <form>
+        <section id="personalInfoSection">
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <h3>Abdul Ahad Nauman</h3>
+            <label for="email">Email:</label>
+            <a href="mailto:abdulahadnauman10@gmail.com">abdulahadnauman10@gmail.com</a>
+            <label for="phone">Phone:</label>
+            <a href="https://wa.me/03358195143" target="_blank">0335 8195143</a>
+            <br>
+        </section>
+        <button type="button" id="togglePersonalInfoBtn">Show Personal Information</button>
+
+        <section id="educationSection">
+            <legend>Education</legend>
+            <label for="Education:">Higher Education:</label>
+            <h3>BCS Batch 2025 FAST NUCES Karachi</h3>
+            <label for="Education:">College:</label>
+            <h3>Commecs College Karachi</h3>
+            <label for="Education:">School</label>
+            <h3>Beaconhouse School Karachi</h3>
+        </section>
+        <button type="button" id="toggleEducationBtn">Show Education</button>
+
+        <section id="skillsSection">
+            <legend>Skills</legend>
+            <label for="skills">Skills:</label>
+            <h3>PERN Stack</h3>
+            <h3>DevOPS</h3>
+            <h3>Software Project Management</h3>
+            <h3>Agile Methodologies</h3>
+            <h3>Database</h3>
+            <h3>Artificial Intelligence</h3>
+        </section>
+        <button type="button" id="toggleskillsBtn">Show Skills</button>
+
+        <section id="projectsSection">
+            <legend>Projects</legend>
+            <label for="Projects">Projects</label>
+            <h3>Careem Management System</h3>
+            <p class="duration">Aug 2021 – Dec 2021</p>
+            <ul>
+                <li>Filing and Memory Allocation in C</li>
+                <li>C Language based Management System</li>
+            </ul>
+            <h3>Student Management System</h3>
+            <p class="duration">Aug 2022 – Dec 2022</p>
+            <ul>
+                <li>Developed a full-stack web application</li>
+                <li>Using Express and NodeJS as backend and HTML CSS as the frontend</li>
+            </ul>
+            <h3>Voice Recognition System</h3>
+            <p class="duration">Feb 2024 – Jun 2024</p>
+            <ul>
+                <li>Developed Frontend in HTML CSS and JS</li>
+                <li>Machine Learning Model in Python</li>
+            </ul>
+        </section>
+        <button type="button" id="toggleProjectsBtn">Show Projects</button>
+
+        <section id="experienceSection">
+            <legend>Experience</legend>
+            <label for="experience">Experience:</label>
+            <h3>Aizex Frontend Website in December 2023-January 2024</h3>
+        </section>
+        <button type="button" id="toggleExperienceBtn">Show Experience</button>
+        
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
